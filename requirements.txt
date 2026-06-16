@@ -5,6 +5,7 @@ qiskit-ibm-runtime
 matplotlib
 pylatexenc          # clean gate labels in circuit.draw('mpl')
 jupyter
+seaborn              # for nicer default plot styles
 
 # --- Algorithms layer: Grover, phase estimation, VQE/QAOA engines ---
 qiskit-algorithms
