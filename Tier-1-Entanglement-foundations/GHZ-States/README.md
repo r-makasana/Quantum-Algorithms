@@ -18,12 +18,11 @@ This is more than "extra entanglement." With three or more qubits, the correlati
 For three qubits this gives (\|000⟩ + \|111⟩)/√2. For N qubits it's one Hadamard and N−1 CNOTs — the circuit scales linearly with qubit count.
 
 ## The circuit
-### Used Qiskit Append function
+#### Used Qiskit Append function
 ![GHZ state circuit](ghz_circuit.png)   
 
+#### Used Qiskit Compose function
 ![GHZ state circuit](ghz_circuit_meas.png) 
-
-### Used Qiskit Compose function
 
 The Hadamard seeds the superposition; each CNOT propagates the all-or-nothing agreement to the next qubit in the chain.
 
