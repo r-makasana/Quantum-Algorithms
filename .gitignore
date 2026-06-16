@@ -1,0 +1,17 @@
+# Virtual environment
+quantum-algorithms/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks and Checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# Operating system files
+.DS_Store
+Thumbs.db
