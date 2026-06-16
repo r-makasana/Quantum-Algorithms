@@ -19,7 +19,8 @@ For three qubits this gives (\|000⟩ + \|111⟩)/√2. For N qubits it's one Ha
 
 ## The circuit
 
-![GHZ state circuit](ghz_circuit.png)
+![GHZ state circuit](ghz_circuit.png)   Used Qiskit Append function
+![GHZ state circuit](ghz_circuit_meas.png) Used Qiskit Compose function
 
 The Hadamard seeds the superposition; each CNOT propagates the all-or-nothing agreement to the next qubit in the chain.
 
