@@ -18,7 +18,7 @@ Two threads run through the whole repo:
 | **Tier 1 — Entanglement foundations** | | | |
 | 1 | Bell States | superposition, entanglement, correlated measurement | Done |
 | 2 | GHZ States | entanglement across three or more qubits | Done |
-| 3 | CHSH | *proving* the correlations aren't classical | Planned |
+| 3 | CHSH | *proving* the correlations aren't classical | Done |
 | 4 | Quantum Teleportation | moving a state via entanglement + classical bits | Planned |
 | 5 | SuperDense Coding | two classical bits inside one qubit | Planned |
 | **Tier 2 — Reversible arithmetic** | | | |
@@ -77,22 +77,17 @@ quantum-algorithms/
 │   │   ├── README.md
 │   │   ├── bell_states.ipynb
 │   │   └── circuit.png
-│   └── GHZ-States/
+│   ├── GHZ-States/
+│   │   ├── README.md
+│   │   ├── ghz_states.ipynb
+│   │   └── ghz_circuit.png
+│   └── CHSH/
 │       ├── README.md
-│       ├── ghz_states.ipynb
-│       └── ghz_circuit.png
+│       ├── chsh.ipynb
+│       └── chsh_circuit.png
 ├── Tier-2-Reversible-arithmetic/
 ├── Tier-3-Oracle-algorithms/
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
 ````
 
-## Built with
-
-Qiskit · Qiskit Aer (simulation) · qiskit-ibm-runtime (real hardware) · the qiskit-algorithms / -optimization / -machine-learning ecosystem for the upper tiers.
-````
-````
-
-A couple of choices worth flagging: I used plain "Done / Planned" text rather than status icons, and I kept the algorithm names matching your Tier folder structure. Update the two `Status` cells to "Done" as you finish each rung — that running progress bar is a nice signal to anyone browsing mid-build.
-
-If you'd like, I can also generate the learning ladder as an actual image (SVG or PNG) you commit to the repo, so the landing page has a visual map instead of only the table. Otherwise, CHSH is the next rung whenever you're ready.
