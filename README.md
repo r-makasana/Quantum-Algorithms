@@ -19,7 +19,7 @@ Two threads run through the whole repo:
 | 1 | Bell States | superposition, entanglement, correlated measurement | Done |
 | 2 | GHZ States | entanglement across three or more qubits | Done |
 | 3 | CHSH | *proving* the correlations aren't classical | Done |
-| 4 | Quantum Teleportation | moving a state via entanglement + classical bits | Planned |
+| 4 | Quantum Teleportation | moving a state via entanglement + classical bits | Done |
 | 5 | SuperDense Coding | two classical bits inside one qubit | Planned |
 | **Tier 2 — Reversible arithmetic** | | | |
 | 6 | Increment Circuit | controlled gates as reversible arithmetic | Planned |
@@ -55,7 +55,7 @@ git clone https://github.com/r-makasana/quantum-algorithms.git
 cd quantum-algorithms
 
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/bin/activate        # Windows: source .venv/Scripts/activate
 
 pip install -r requirements.txt
 ````
@@ -70,7 +70,7 @@ jupyter notebook Tier-1-Entanglement-foundations/Bell-States/bell_states.ipynb
 
 ````
 quantum-algorithms/
-├── README.md                         <- you are here
+├── README.md                        
 ├── requirements.txt
 ├── Tier-1-Entanglement-foundations/
 │   ├── Bell-States/
@@ -81,10 +81,14 @@ quantum-algorithms/
 │   │   ├── README.md
 │   │   ├── ghz_states.ipynb
 │   │   └── ghz_circuit.png
-│   └── CHSH/
+│   |── CHSH/
+│   |   ├── README.md
+│   |   ├── chsh.ipynb
+│   |   └── chsh_circuit.png
+|   └── Quantum-Teleportation/
 │       ├── README.md
-│       ├── chsh.ipynb
-│       └── chsh_circuit.png
+│       ├── quantum_teleportation.ipynb
+│       └── teleportation_circuit.png
 ├── Tier-2-Reversible-arithmetic/
 ├── Tier-3-Oracle-algorithms/
 ├── Tier-4-Fourier-and-walks/
