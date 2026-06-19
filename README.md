@@ -20,7 +20,7 @@ Two threads run through the whole repo:
 | 2 | GHZ States | entanglement across three or more qubits | Done |
 | 3 | CHSH | *proving* the correlations aren't classical | Done |
 | 4 | Quantum Teleportation | moving a state via entanglement + classical bits | Done |
-| 5 | SuperDense Coding | two classical bits inside one qubit | Planned |
+| 5 | SuperDense Coding | two classical bits inside one qubit | Done |
 | **Tier 2 — Reversible arithmetic** | | | |
 | 6 | Increment Circuit | controlled gates as reversible arithmetic | Planned |
 | 7 | Decrement Circuit | reversible subtraction | Planned |
@@ -85,10 +85,16 @@ quantum-algorithms/
 │   |   ├── README.md
 │   |   ├── chsh.ipynb
 │   |   └── chsh_circuit.png
-|   └── Quantum-Teleportation/
-│       ├── README.md
-│       ├── quantum_teleportation.ipynb
-│       └── teleportation_circuit.png
+|   |── Quantum-Teleportation/
+│   |   ├── README.md
+│   |   ├── quantum_teleportation.ipynb
+│   |   └── teleportation_circuit.png
+|   |── Superdense-Coding/
+│   |   ├── README.md
+│   |   ├── superdense_coding.ipynb
+│   |   ├── superdense_coding_circuit.png
+│   |   ├── superdense_coding_results_simulator.png
+│   |   └── superdense_coding_results_realhardware.png
 ├── Tier-2-Reversible-arithmetic/
 ├── Tier-3-Oracle-algorithms/
 ├── Tier-4-Fourier-and-walks/
