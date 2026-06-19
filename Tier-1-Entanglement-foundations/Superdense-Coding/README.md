@@ -28,7 +28,7 @@ if Alice sends '00', the histogram should show a high count for '00' and low cou
 
 ## Result show in a histogram:
 I check results on both a simulator and real hardware. The histogram from the simulator should show a clear peak at the correct outcome corresponding to Alice's message, while the histogram from real hardware may show some noise, but the correct outcome should still be the most frequent result.
-![Simulator results](superdense_coding_results_simulator.png)
+![Simulator results](superdense_coding_results_simulation.png)
 ![Real hardware results](superdense_coding_results_realhardware.png)
 
 # Does quantum actually help here?
