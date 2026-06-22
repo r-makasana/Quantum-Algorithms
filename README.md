@@ -23,7 +23,7 @@ Two threads run through the whole repo:
 | 5 | SuperDense Coding | two classical bits inside one qubit | Done |
 | **Tier 2 — Reversible arithmetic** | | | |
 | 6 | Increment Circuit | controlled gates as reversible arithmetic | Done |
-| 7 | Decrement Circuit | reversible subtraction | Planned |
+| 7 | Decrement Circuit | reversible subtraction | Done |
 | **Tier 3 — Oracle algorithms** | | | |
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Planned |
 | 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Planned |
@@ -100,9 +100,12 @@ quantum-algorithms/
 |   |   ├── README.md
 |   |   ├── increment_circuit.ipynb
 |   |   └── increment_circuit.png
-
+|   ├── Decrement-Circuit/
+|   |   ├── README.md
+|   |   ├── decrement_circuit.ipynb
+|   |   ├── decrement_circuit.png
 ├── Tier-3-Oracle-algorithms/
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
-````
+```
 
