@@ -22,7 +22,7 @@ Two threads run through the whole repo:
 | 4 | Quantum Teleportation | moving a state via entanglement + classical bits | Done |
 | 5 | SuperDense Coding | two classical bits inside one qubit | Done |
 | **Tier 2 — Reversible arithmetic** | | | |
-| 6 | Increment Circuit | controlled gates as reversible arithmetic | Planned |
+| 6 | Increment Circuit | controlled gates as reversible arithmetic | Done |
 | 7 | Decrement Circuit | reversible subtraction | Planned |
 | **Tier 3 — Oracle algorithms** | | | |
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Planned |
@@ -96,6 +96,11 @@ quantum-algorithms/
 │   |   ├── superdense_coding_results_simulator.png
 │   |   └── superdense_coding_results_realhardware.png
 ├── Tier-2-Reversible-arithmetic/
+|   ├── Increment-Circuit/
+|   |   ├── README.md
+|   |   ├── increment_circuit.ipynb
+|   |   └── increment_circuit.png
+
 ├── Tier-3-Oracle-algorithms/
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
