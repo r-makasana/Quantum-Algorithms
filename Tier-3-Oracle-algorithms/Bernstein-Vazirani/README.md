@@ -142,7 +142,7 @@ secret = 1101
 Measurement output:
 
 ```text id="outbv1"
-1011
+1101
 ```
 
 with probability ≈ 100%
@@ -169,10 +169,6 @@ The BV algorithm uses:
 This allows the full string to be recovered in a single oracle call.
 
 ---
-
-## Does quantum help here?
-
-Yes — but in a theoretical sense.
 
 BV demonstrates:
 
