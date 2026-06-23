@@ -109,6 +109,10 @@ quantum-algorithms/
 |   |   ├── README.md
 |   |   ├── deutsch_josza_circuit.ipynb
 |   |   ├── dj_circuit.png
+|   ├── Bernstein–Vazirani/
+|   |   ├── README.md
+|   |   ├── bernstein_vazirani_circuit.ipynb
+|   |   ├── bv_circuit.png
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
 ```
