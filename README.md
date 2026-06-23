@@ -26,7 +26,7 @@ Two threads run through the whole repo:
 | 7 | Decrement Circuit | reversible subtraction | Done |
 | **Tier 3 — Oracle algorithms** | | | |
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Done |
-| 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Planned |
+| 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Done |
 | 10 | Grover's Search | amplitude amplification; quadratic speedup | Planned |
 | **Tier 4 — Fourier & walks** | | | |
 | 11 | Quantum Fourier Transform | the subroutine the advanced algorithms are built on | Planned |
