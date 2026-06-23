@@ -25,7 +25,7 @@ Two threads run through the whole repo:
 | 6 | Increment Circuit | controlled gates as reversible arithmetic | Done |
 | 7 | Decrement Circuit | reversible subtraction | Done |
 | **Tier 3 — Oracle algorithms** | | | |
-| 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Planned |
+| 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Done |
 | 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Planned |
 | 10 | Grover's Search | amplitude amplification; quadratic speedup | Planned |
 | **Tier 4 — Fourier & walks** | | | |
@@ -105,6 +105,10 @@ quantum-algorithms/
 |   |   ├── decrement_circuit.ipynb
 |   |   ├── decrement_circuit.png
 ├── Tier-3-Oracle-algorithms/
+|   ├── Deutsch-Josza/
+|   |   ├── README.md
+|   |   ├── deutsch_josza_circuit.ipynb
+|   |   ├── dj_circuit.png
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
 ```
