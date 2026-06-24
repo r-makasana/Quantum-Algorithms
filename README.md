@@ -27,7 +27,7 @@ Two threads run through the whole repo:
 | **Tier 3 — Oracle algorithms** | | | |
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Done |
 | 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Done |
-| 10 | Grover's Search | amplitude amplification; quadratic speedup | Planned |
+| 10 | Simons Algorithm |  | Done|
 | **Tier 4 — Fourier & walks** | | | |
 | 11 | Quantum Fourier Transform | the subroutine the advanced algorithms are built on | Planned |
 | 12 | Quantum Random Walks | quantum vs. classical diffusion | Planned |
@@ -113,6 +113,10 @@ quantum-algorithms/
 |   |   ├── README.md
 |   |   ├── bernstein_vazirani_circuit.ipynb
 |   |   ├── bv_circuit.png
+|   ├── Simons-Algorithm/
+|   |   ├── README.md
+|   |   ├── simon_circuit.ipynb
+|   |   ├── simon_circuit.png   
 ├── Tier-4-Fourier-and-walks/
 └── Tier-5-Variational-and-QML/
 ```
