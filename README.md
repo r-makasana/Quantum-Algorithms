@@ -27,7 +27,7 @@ Two threads run through the whole repo:
 | **Tier 3 — Oracle algorithms** | | | |
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Done |
 | 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Done |
-| 10 | Simons Algorithm |  | Done|
+| 10 | Simons Algorithm |finds a hidden binary string using exponential quantum speedup  | Done|
 | **Tier 4 — Fourier & walks** | | | |
 | 11 | Quantum Fourier Transform | the subroutine the advanced algorithms are built on | Planned |
 | 12 | Quantum Random Walks | quantum vs. classical diffusion | Planned |
