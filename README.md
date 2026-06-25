@@ -28,13 +28,14 @@ Two threads run through the whole repo:
 | 8 | Deutsch–Josza | first clear quantum advantage; oracles + phase kickback | Done |
 | 9 | Bernstein–Vazirani | recovering a hidden bit-string in one query | Done |
 | 10 | Simons Algorithm |finds a hidden binary string using exponential quantum speedup  | Done|
+| 11 | Grover's Algorithm |  | Planned|
 | **Tier 4 — Fourier & walks** | | | |
-| 11 | Quantum Fourier Transform | the subroutine the advanced algorithms are built on | Planned |
-| 12 | Quantum Random Walks | quantum vs. classical diffusion | Planned |
+| 12 | Quantum Fourier Transform | the subroutine the advanced algorithms are built on | Planned |
+| 13 | Quantum Random Walks | quantum vs. classical diffusion | Planned |
 | **Tier 5 — Variational & quantum ML** | | | |
-| 13 | QAOA | hybrid quantum-classical optimization | Planned |
-| 14 | QSVM | quantum kernels for classification | Planned |
-| 15 | QGANs | quantum generative models | Planned |
+| 14 | QAOA | hybrid quantum-classical optimization | Planned |
+| 15 | QSVM | quantum kernels for classification | Planned |
+| 16 | QGANs | quantum generative models | Planned |
 
 ## How each folder is organized
 
